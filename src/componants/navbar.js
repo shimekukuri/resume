@@ -5,7 +5,10 @@ import Button from "./Button.js";
 export default function Navbar(props) {
     const {className, navbarActive, onNavbarToggle, onNavbarSelection} = props;
     const classes = clsx(className, {activate: navbarActive});
-    console.log(classes)
+    
+    const handleGitHubClick = () => {
+        window.open("https://github.com/shimekukuri");
+    };
 
     return (<>
     <div id="navbar" className={classes}>
@@ -13,7 +16,7 @@ export default function Navbar(props) {
         <h1 className="navbarheader">Menu</h1>
         <ul className="navList">
             <li className="navbarlist"><Button onClick={()=> onNavbarSelection(`twitter`)}>Twitter</Button></li>
-            <li className="navbarlist"><Button>Gethub</Button></li>
+            <li className="navbarlist"><Button onClick={handleGitHubClick}>Gethub</Button></li>
             <li className="navbarlist"><Button>Resume</Button></li>
         </ul>
         <div className="footer">© Tyler James Hutchinson</div>
