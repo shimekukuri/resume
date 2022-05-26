@@ -181,6 +181,45 @@ ul {
        animation: fadein 2s;
 }
 
+#blogtainer {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.bloglet {
+  margin-top: 15px;
+  background-color: #3b393942;
+  border-radius: 15px;
+  width: 50%;
+  min-width: 400px;
+}
+
+.blogletheader {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.blogletdate {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.body {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

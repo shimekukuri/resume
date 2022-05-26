@@ -18,6 +18,7 @@ export default function Navbar(props) {
             <li className="navbarlist"><Button onClick={()=> onNavbarSelection(`twitter`)}>Twitter</Button></li>
             <li className="navbarlist"><Button onClick={handleGitHubClick}>Gethub</Button></li>
             <li className="navbarlist"><Button>Resume</Button></li>
+            <li className="navbarlist"><Button onClick={() => onNavbarSelection('blog')}>Blog</Button></li>
         </ul>
         <div className="footer">© Tyler James Hutchinson</div>
     </div>
