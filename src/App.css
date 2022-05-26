@@ -204,6 +204,12 @@ ul {
   text-align: center;
 }
 
+.blogletheader:hover {
+  background-color: beige;
+  border-radius: 15px;
+  width: 90%;
+}
+
 .blogletdate {
   display: flex;
   flex-direction: column;
