@@ -34,7 +34,7 @@ function App() {
           setBlogList(data.result)
       }).catch((error) => console.error(error));
       console.log(blogList);
-  }, []);
+  },[]);
 
   const deactiveApplet = (e) => {
     appletSetters.forEach((applet) => {
