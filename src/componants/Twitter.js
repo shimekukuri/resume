@@ -5,7 +5,7 @@ export default function Twitter(props) {
 
     return (<>
     <div className="twittercontainer">
-            <TwitterTimelineEmbed sourceType="profile" screenName="shimeku" options={{height:500, width:600}}/>
+            <TwitterTimelineEmbed sourceType="profile" screenName="shimeku" options={{height:700, width:400}}/>
     </div>
     </>);
 }

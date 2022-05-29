@@ -12,7 +12,7 @@ export default function Blog(props) {
     <div id="blogtainer">
         {props.blogList.length > 0 ? props.blogList.slice(0).sort((a,b) => {
             return new Date(b._createdAt) - new Date(a._createdAt);
-        }).map((item, i) => <Bloglet item={item} i={i}/>) : <h1>Trouble getting bloglist</h1>}
+        }).map((item, i) => <Bloglet item={item} i={i} key={i}/>) : <h1>Trouble getting bloglist</h1>}
     </div>
     </>);
 }

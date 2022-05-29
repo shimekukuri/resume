@@ -14,7 +14,7 @@ function App() {
   const [getHubActive, setGetHubActive] = useState(false);
   const [blogActive, setBlogActive] = useState(false);
   const [homeActive, setHomeActive] = useState(true);
-  const[blogList, setBlogList] = useState([])
+  const [blogList, setBlogList] = useState([])
   const appletSetters = [setTwitterActive,setResumeActive,setGetHubActive, setHomeActive, setBlogActive];
 
   let PROJECT_ID = "s4fylfy4";
@@ -34,6 +34,7 @@ function App() {
           setBlogList(data.result)
       }).catch((error) => console.error(error));
       console.log(blogList);
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[]);
 
   const deactiveApplet = (e) => {
