@@ -15,9 +15,9 @@ export default function Navbar(props) {
         <button id="navbarexit" onClick={onNavbarToggle}>X</button>
         <h1 className="navbarheader">Menu</h1>
         <ul className="navList">
-            <li className="navbarlist"><Button onClick={()=> onNavbarSelection(`twitter`)}>Twitter</Button></li>
+            <li className="navbarlist"><Button onClick={() => onNavbarSelection(`twitter`)}>Twitter</Button></li>
             <li className="navbarlist"><Button onClick={handleGitHubClick}>Gethub</Button></li>
-            <li className="navbarlist"><Button>Resume</Button></li>
+            <li className="navbarlist"><Button onClick={() => onNavbarSelection(`resume`)}>Resume</Button></li>
             <li className="navbarlist"><Button onClick={() => onNavbarSelection('blog')}>Blog</Button></li>
         </ul>
         <div className="footer">© Tyler James Hutchinson</div>
