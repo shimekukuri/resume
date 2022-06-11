@@ -1,9 +1,0 @@
-import React from "react";
-import clsx from "clsx";
-
-export default function Button(props){
-    const {className, children, isClicked, ...rest} = props;
-    const classes = clsx({"btn": true}, className)
-
-    return(<><button className={classes} {...rest}>{children}</button></>)
-}
