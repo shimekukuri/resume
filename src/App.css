@@ -1,3 +1,9 @@
+@media screen and (max-width: 420px) {
+  .home-paragraph {
+    max-width: 250px !important;
+  }
+}
+
 html {
   background: url(images/resumebg3.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
