@@ -6,6 +6,10 @@ html {
   background-size: cover;
 }
 
+button {
+  color: #000;
+}
+
 #button-container {
   position: absolute;
   top: 0px;
