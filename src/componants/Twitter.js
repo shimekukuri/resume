@@ -16,11 +16,11 @@ export default function Twitter(props) {
       <div className="twittercontainer">
         {sudoLoad && <div className="loader"></div>}
         <div className="twitterframe">
-          <TwitterTimelineEmbed
+          { !sudoLoad && <TwitterTimelineEmbed
             sourceType="profile"
             screenName="shimeku"
-            options={{ height: window.screen.height - 200, width: 1000 }}
-          />
+            options={{ height: window.screen.height - (window.screen.height * 0.055), width: 1000 }}
+          />}
         </div>
       </div>
     </>
