@@ -42,7 +42,6 @@ function App() {
         setBlogList(data.result);
       })
       .catch((error) => console.error(error));
-    console.log(blogList);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -71,7 +70,6 @@ function App() {
 
   const handleNavbarEvent = () => {
     setNavbarActivate(!navbarActivate);
-    console.log(navbarActivate);
   };
 
   return (
