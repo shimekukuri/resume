@@ -31,6 +31,7 @@ function App() {
   let URL = `https://${PROJECT_ID}.api.sanity.io/v2021-10-21/data/query/${DATASET}?query=${QUERY}`;
 
   useEffect(() => {
+    document.title="Tyler James Hutchinson"
     fetch(URL)
       .then((response) => {
         if (!response.ok) {
