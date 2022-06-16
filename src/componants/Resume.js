@@ -47,26 +47,38 @@ export default function Resume(props) {
               <p className="resume-p">• Graduated with Honors</p>
               <h2>Work History:</h2>
               <h4 className="resume-p">Jimmy Johns</h4>
-              <p className="resume-p"><i>Team Member</i></p>
+              <p className="resume-p">
+                <i>Team Member</i>
+              </p>
               <p className="resume-p">• Dedicated closing team member</p>
               <p className="resume-p">• Prepared and managed orders</p>
               <p className="resume-p">• Maintained food and safety standards</p>
               <p></p>
               <h4 className="resume-p">Meijer</h4>
-              <p className="resume-p"><i>Over-Night GM</i></p>
-              <p className="resume-p">• Created and executed business directives</p>
-              <p className="resume-p">• Acting store director during overnight shifts</p>
+              <p className="resume-p">
+                <i>Over-Night GM</i>
+              </p>
+              <p className="resume-p">
+                • Created and executed business directives
+              </p>
+              <p className="resume-p">
+                • Acting store director during overnight shifts
+              </p>
               <p className="resume-p">• Licensed Fork-Lift operator</p>
               <p></p>
               <h4 className="resume-p">Ollies Bargain Outlet</h4>
-              <p className="resume-p"><i>Co-General Manager</i></p>
+              <p className="resume-p">
+                <i>Co-General Manager</i>
+              </p>
               <p className="resume-p">• Handle all HR duties</p>
               <p className="resume-p">• Manage all staff</p>
               <p className="resume-p">• Execute merchanizing standards</p>
               <p></p>
               <h2>References:</h2>
               <h4 className="resume-p">Troy Hicks</h4>
-              <p className="resume-p"><i>Higher Education consultant</i></p>
+              <p className="resume-p">
+                <i>Higher Education consultant</i>
+              </p>
             </div>
           </div>
         </div>
