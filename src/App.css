@@ -296,6 +296,24 @@ p {
   text-indent: 25px;
 }
 
+.componant-container {
+  min-height: 90%;
+}
+
+.form-container {
+  margin-top: 35px;
+  display: flex;
+}
+
+.form {
+  display: flex;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
 .loader {
   color: #ffffff;
   font-size: 90px;

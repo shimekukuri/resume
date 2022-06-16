@@ -32,6 +32,9 @@ export default function Navbar(props) {
           <li className="navbarlist">
             <Button onClick={() => onNavbarSelection("blog")}>Blog</Button>
           </li>
+          <li className="navbarlist">
+            <Button onClick={() => onNavbarSelection("contact")}>Contact</Button>
+          </li>
         </ul>
         <div className="footer">© Tyler James Hutchinson</div>
       </div>

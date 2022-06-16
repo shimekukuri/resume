@@ -6,6 +6,7 @@ import Resume from "./componants/Resume";
 import Home from "./componants/Home";
 import Picture from "./images/IMG.jpg";
 import Blog from "./componants/Blog";
+import Contact from "./componants/Contact";
 
 function App() {
   const [navbarActivate, setNavbarActivate] = useState(false);
@@ -15,12 +16,15 @@ function App() {
   const [blogActive, setBlogActive] = useState(false);
   const [homeActive, setHomeActive] = useState(true);
   const [blogList, setBlogList] = useState([]);
+  const [contact, setContact] = useState(false);
+
   const appletSetters = [
     setTwitterActive,
     setResumeActive,
     setGetHubActive,
     setHomeActive,
     setBlogActive,
+    setContact,
   ];
 
   let PROJECT_ID = "s4fylfy4";
@@ -66,6 +70,8 @@ function App() {
       return;
     } else if (e === `home`) {
       setHomeActive(true);
+    } else if (e === "contact") {
+      setContact(true);
     }
   };
 
@@ -102,6 +108,7 @@ function App() {
       {resumeActive && <Resume />}
       {getHubActive && <Resume />}
       {blogActive && <Blog blogList={blogList} url={URL} />}
+      {contact && <Contact />}
     </>
   );
 }
