@@ -78,7 +78,15 @@ export default function Resume(props) {
               <h4 className="resume-p">Troy Hicks</h4>
               <p className="resume-p">
                 <i>Higher Education consultant</i>
+                <p className="resume-p">• Contact information upon request</p>
               </p>
+              <p></p>
+              <h4 className="resume-p">Demite Luquer</h4>
+              <i>(Retired) General Manager</i>
+              <p className="resume-p">
+              • Contact information upon request
+              </p>
+              
             </div>
           </div>
         </div>
