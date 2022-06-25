@@ -314,6 +314,17 @@ p {
   flex-direction: column;
 }
 
+.thanks {
+  padding-top: 30px;
+}
+
+.block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
 .loader {
   color: #ffffff;
   font-size: 90px;
